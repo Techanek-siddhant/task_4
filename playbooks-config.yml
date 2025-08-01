@@ -34,16 +34,3 @@ ssrp_amigprd:
   - managed_ubuntu
   playbooks:
   - ssrp_amigprd.yml
-ssrp_amwebprd:
-  parent_groups:
-  - managed_ubuntu
-  playbooks:
-  - ssrp_amwebprd.yml
-unmanaged_ubuntu:
-  parent_groups:
-  - base_ubuntu
-  playbooks:
-  - unmanaged_ubuntu.yml
-test_windows:
-  playbooks:
-  - test_windows.yml
